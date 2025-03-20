@@ -1,0 +1,49 @@
+.hero-container {
+    width: 100%;
+    color: white;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://bootstrapmade.com/content/demo/Gp/assets/img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  
+.hero-container .card {
+    width: 156px;
+    height: 166px;
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(0px);
+}
+
+.hero-container .card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.hero-container h1, h4 {
+    
+    
+    animation: fadeIn 3s ease-in-out;
+}
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+

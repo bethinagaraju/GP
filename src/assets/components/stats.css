@@ -1,0 +1,11 @@
+.stats-div{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.purecounter{
+    font-size: 40px;
+    font-weight: bold;
+}

@@ -1,0 +1,14 @@
+.team-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+
+.team-div .card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}

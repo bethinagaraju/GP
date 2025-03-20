@@ -1,0 +1,16 @@
+.portfolio-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-top{
+    padding-top: 60px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+}

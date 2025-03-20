@@ -1,0 +1,38 @@
+.carousel-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    text-align: center;
+    color: white;
+  }
+  
+  .carousel-text h3 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .carousel-text p {
+    font-size: 1rem;
+  }
+
+  .carousel-text img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid lightgray;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-text {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://bootstrapmade.com/content/demo/Gp/assets/img/testimonials-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .carousel-text .stars .icon{
+    color: gold;
+  }
+
